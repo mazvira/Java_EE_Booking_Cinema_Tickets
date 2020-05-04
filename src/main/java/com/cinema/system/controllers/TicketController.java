@@ -1,5 +1,6 @@
-package com.cinema.system;
+package com.cinema.system.controllers;
 
+import com.cinema.system.services.TicketService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 

@@ -1,16 +1,16 @@
-package com.cinema.system;
+package com.cinema.system.domain.entities;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "movie")
+@Data
 @NoArgsConstructor
-@Getter
-@Setter
+@AllArgsConstructor
+@Builder
 public class Movie {
     @Id
     @Column(name = "movie_id")
@@ -25,5 +25,9 @@ public class Movie {
     @Column(name = "movie_country")
     private String country;
     @Column(name = "movie_duration")
-    private int duration;
+    private double duration;
+
+    @OneToMany(mappedBy = "movie", fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL)
+    private List<Session> sessions;
 }

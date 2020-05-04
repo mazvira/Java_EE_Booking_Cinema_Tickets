@@ -1,16 +1,17 @@
-package com.cinema.system;
+package com.cinema.system.services;
 
+import com.cinema.system.domain.entities.Ticket;
+import com.cinema.system.repositories.TicketRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.*;
 import java.util.List;
 
 @Service
 @RequiredArgsConstructor
 public class TicketService {
-    private final EntityManager entityManager;
+    private final TicketRepository ticketRepository;
 
     @Transactional
     public Ticket createTicket(double price, int raw, int place) {
@@ -18,19 +19,16 @@ public class TicketService {
         ticket.setPrice(price);
         ticket.setRaw(raw);
         ticket.setPlace(place);
-        return entityManager.merge(ticket);
+        return ticketRepository.save(ticket);
     }
 
     @Transactional
-    public List<Ticket> getAllTickets() {
-        return entityManager.createQuery("FROM Ticket", Ticket.class)
-                .getResultList();
+    public List<Ticket> findAllTickets() {
+        return ticketRepository.findAll();
     }
 
     @Transactional
     public Ticket findById(Integer id) {
-        return entityManager.createNamedQuery(Ticket.FIND_BY_ID, Ticket.class)
-                .setParameter("id", id)
-                .getSingleResult();
+        return ticketRepository.findById(id).orElse(null);
     }
 }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<h3>All Movies</h3>
+<div>
+    <button id="getBooks">Get all Movies</button>
+    <table>
+        <thead>
+        <th>id</th>
+        <th>name</th>
+        <th>producer</th>
+        <th>duration</th>
+        </thead>
+        <tbody id="moviesTable">
+        </tbody>
+    </table>
+</div>
+<script>
+    $(function () {
+        $(document).ready(function () {
+            getMoviesList();
+        });
+    });
+
+    function getMoviesList() {
+        $.ajax({
+            type: 'GET',
+            url: '/movies-list',
+            success: function (response) {
+                console.log(response);
+                fillMoviesTable(response);
+            }
+        });
+    }
+
+    function fillMoviesTable(response) {
+        let $books = $('#moviesTable');
+        $books.empty();
+        response.forEach(function (movie) {
+            addMovieToTable(movie);
+        })
+    }
+
+    function addMovieToTable(movie) {
+        let $movies = $('#moviesTable');
+        $movies.append('<tr><td><a href=\"/movie/' + movie.id + '\">' + movie.id + '</a></td><td>' + movie.name + '</td><td>' + movie.producer + '</td><td>' + movie.duration + '</td></tr>');
+    }
+</script>
+</body>
+</html>

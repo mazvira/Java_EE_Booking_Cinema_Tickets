@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9784894-3676-4122-be92-486d96402aeb" name="Default Changelist" comment="" />
+    <list default="true" id="b9784894-3676-4122-be92-486d96402aeb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/config/InitializingPermissionBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/config/MyPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/controllers/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/controllers/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/domain/entities/PermissionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/domain/entities/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/domain/type/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/dto/MovieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/dto/RegistrationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/repositories/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/repositories/PermissionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/repositories/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/services/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/services/MyUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/services/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/moviesList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/system/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/domain/entities/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/system/MovieTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/domain/entities/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/SystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/system/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/domain/entities/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/system/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/controllers/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinema/system/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinema/system/services/TicketService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +45,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,23 +60,61 @@
     </option>
   </component>
   <component name="ProjectId" id="1Yo2j32FUM0F9bRnM2tL3DqzOpk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cinema.system" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Вступ до Java EE\SystemOfBookingCinemaTickets\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cinema.system.services" />
+      <recent name="com.cinema.system.config" />
+      <recent name="com.cinema.system.repositories" />
+      <recent name="com.cinema.system.domain.entities" />
+      <recent name="com.cinema.system.domain.type" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Вступ до Java EE\SystemOfBookingCinemaTickets\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SystemOfBookingCinemaTickets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cinema.system.domain.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cinema.system.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SystemApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,7 +126,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583594757621</updated>
-      <workItem from="1583594762834" duration="2600000" />
+      <workItem from="1583594762834" duration="5331000" />
+      <workItem from="1588496014015" duration="16600000" />
     </task>
     <servers />
   </component>
@@ -62,5 +139,57 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1583595720450" />
+    <state x="399" y="145" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588504726729">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="399" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1588504726729" />
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588514063482">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1588514063482" />
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588523628935">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1588523628935" />
+    <state width="1237" height="266" key="GridCell.Tab.0.bottom" timestamp="1588523190974">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="266" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588523190974" />
+    <state width="1237" height="266" key="GridCell.Tab.0.center" timestamp="1588523190974">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="266" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588523190974" />
+    <state width="1237" height="266" key="GridCell.Tab.0.left" timestamp="1588523190974">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="266" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588523190974" />
+    <state width="1237" height="266" key="GridCell.Tab.0.right" timestamp="1588523190974">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="266" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588523190974" />
+    <state width="1237" height="266" key="GridCell.Tab.1.bottom" timestamp="1588523190975">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="266" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588523190975" />
+    <state width="1237" height="266" key="GridCell.Tab.1.center" timestamp="1588523190975">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="266" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1588523190975" />
+    <state width="1237" height="266" key="GridCell.Tab.1.left" timestamp="1588523190975">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="266" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1588523190975" />
+    <state width="1237" height="266" key="GridCell.Tab.1.right" timestamp="1588523190975">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="266" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1588523190975" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1588496080067">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588496080067" />
+    <state x="336" y="72" width="805" height="536" key="find.popup" timestamp="1588514285834">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="336" y="72" width="805" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1588514285834" />
   </component>
 </project>
